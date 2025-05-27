@@ -1,5 +1,4 @@
 import styles from './AnatomySection.module.css';
-import { healthIndicators } from '../../data/healthData';
 
 function AnatomySection() {
     return (
