@@ -1,0 +1,50 @@
+.health-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+
+.health-image {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.health-info h4 {
+    margin: 0.5rem 0 0.2rem;
+    font-size: 16px;
+}
+
+.health-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-fill.green {
+    background-color: #4caf50;
+}
+
+.progress-fill.red {
+    background-color: #f44336;
+}
+
+.progress-fill.orange {
+    background-color: #ff9800;
+}

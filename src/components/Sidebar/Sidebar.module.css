@@ -1,0 +1,45 @@
+.sidebar {
+    background-color: #f9fcff;
+    padding: 20px;
+    width: 220px;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.sectionTitle {
+    font-size: 12px;
+    font-weight: bold;
+    color: #b0b0b0;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #7a7a7a;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.item:hover {
+    background-color: #eef5ff;
+}
+
+.icon {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.active {
+    background-color: white;
+    color: #2d2d80;
+    font-weight: bold;
+    box-shadow: 0 0 0 2px #dde8ff;
+}

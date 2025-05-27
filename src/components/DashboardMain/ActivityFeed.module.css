@@ -1,0 +1,44 @@
+.container {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    flex: 1;
+    min-width: 300px;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.feedList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f4f4f4;
+    padding: 0.8rem;
+    border-radius: 12px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.content {
+    flex: 1;
+}
+
+.time {
+    font-size: 0.75rem;
+    color: #999;
+}

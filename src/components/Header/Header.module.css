@@ -1,0 +1,73 @@
+/* src/components/Header/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 70px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.left {
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+.center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    width: 60%;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.username {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.addBtn {
+    background-color: #0097e6;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
