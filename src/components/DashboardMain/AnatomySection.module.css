@@ -1,9 +1,7 @@
 .container {
     display: flex;
     align-items: flex-start;
-    /* aligns items top-aligned */
     gap: 2rem;
-    /* space between image and indicators */
     padding: 1rem;
 }
 

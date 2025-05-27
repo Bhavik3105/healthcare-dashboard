@@ -1,5 +1,3 @@
-// src/components/HealthOverview.jsx
-
 import React from 'react';
 import { healthIndicators } from '../data/healthData';
 import HealthCard from './HealthCard.jsx';

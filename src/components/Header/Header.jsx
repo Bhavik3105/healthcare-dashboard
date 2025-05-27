@@ -1,4 +1,3 @@
-// src/components/Header/Header.jsx
 import styles from './Header.module.css';
 import { FaBell, FaPlus } from 'react-icons/fa';
 

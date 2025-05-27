@@ -1,4 +1,3 @@
-// src/components/DashboardMain/ActivityFeed.jsx
 import styles from "./ActivityFeed.module.css";
 
 const activities = [

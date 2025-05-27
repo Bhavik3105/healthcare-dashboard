@@ -1,4 +1,3 @@
-// src/components/DashboardMain/UpcomingSchedule.jsx
 import styles from "./UpcomingSchedule.module.css";
 
 const appointments = [

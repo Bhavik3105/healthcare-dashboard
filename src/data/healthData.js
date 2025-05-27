@@ -1,5 +1,3 @@
-// src/data/healthData.js
-
 import heartImg from '../assets/images/heart.png';
 import lungsImg from '../assets/images/lungs.png';
 import teethImg from '../assets/images/teeth.png';
@@ -11,7 +9,7 @@ export const healthIndicators = [
         status: 'Healthy',
         color: 'green',
         image: heartImg,
-        progress: 80, // add this
+        progress: 80, 
     },
     {
         title: 'Lungs',

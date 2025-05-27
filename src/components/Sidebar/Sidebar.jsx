@@ -1,4 +1,3 @@
-// src/components/Sidebar/Sidebar.jsx
 import styles from './Sidebar.module.css';
 import { FaThLarge, FaHistory, FaCalendarAlt, FaChartBar, FaComments, FaPhoneAlt, FaPlus } from 'react-icons/fa';
 

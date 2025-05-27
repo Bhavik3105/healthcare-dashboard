@@ -1,4 +1,3 @@
-// src/components/DashboardMain/CalendarView.jsx
 import styles from './CalendarView.module.css';
 
 function CalendarView() {
@@ -16,7 +15,7 @@ function CalendarView() {
                 <div className={styles.day}>Fri</div>
                 <div className={styles.day}>Sat</div>
                 <div className={styles.day}>Sun</div>
-                {/* Dummy dates (can be static) */}
+                
                 {[...Array(30)].map((_, i) => (
                     <div key={i} className={styles.date}>
                         {i + 1}

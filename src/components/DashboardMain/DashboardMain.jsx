@@ -13,7 +13,7 @@ function DashboardMain() {
             <div className={styles.top}>
                 <AnatomySection />
 
-                {/* Health Status Cards */}
+                
                 <div className={styles.healthCardContainer}>
                     {healthIndicators.map((item, index) => (
                         <HealthCard key={index} {...item} />

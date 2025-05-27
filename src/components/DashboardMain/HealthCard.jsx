@@ -1,5 +1,3 @@
-// HealthCard.jsx
-
 import React from 'react';
 import './HealthCard.css';
 
