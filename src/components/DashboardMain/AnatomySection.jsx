@@ -1,14 +1,14 @@
 import styles from './AnatomySection.module.css';
+import anatomyImg from '../../assets/images/anatomy.png';
 
 function AnatomySection() {
     return (
         <div className={styles.container}>
             <img
-                src="src/assets/images/anatomy.png"
+                src={anatomyImg}
                 alt="Anatomy"
                 className={styles.image}
             />
-
         </div>
     );
 }
